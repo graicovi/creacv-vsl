@@ -25,6 +25,7 @@
     />
     <meta name="twitter:image" content="assets/creacv-social-card.png" />
     <title>CreaCV | Haz visible tu experiencia</title>
+    <link rel="icon" type="image/svg+xml" href="assets/creacv-logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -151,12 +152,12 @@
         letter-spacing: -0.04em;
       }
 
-      .brand-mark {
+      .brand-logo {
+        display: block;
         width: 32px;
         height: 32px;
-        border-radius: 11px 11px 11px 3px;
-        background: linear-gradient(145deg, var(--violet), #9a6bec);
-        box-shadow: inset 0 -5px 12px rgba(48, 19, 100, 0.24);
+        flex: 0 0 auto;
+        object-fit: contain;
       }
 
       .nav-links {
@@ -1331,7 +1332,7 @@
           font-size: 1.18rem;
         }
 
-        .brand-mark {
+        .brand-logo {
           width: 28px;
           height: 28px;
         }
@@ -1458,7 +1459,7 @@
       <div class="nav-wrap">
         <nav class="nav" aria-label="Navegación principal">
           <a class="brand" href="#inicio" aria-label="CreaCV, volver al inicio">
-            <span class="brand-mark" aria-hidden="true"></span>
+            <img class="brand-logo" src="assets/creacv-logo.svg" alt="" />
             <span>CreaCV</span>
           </a>
           <div class="nav-links">
@@ -1829,7 +1830,7 @@
       <footer>
         <div class="container footer-inner">
           <a class="brand" href="#inicio" aria-label="CreaCV, volver al inicio">
-            <span class="brand-mark" aria-hidden="true"></span>
+            <img class="brand-logo" src="assets/creacv-logo.svg" alt="" loading="lazy" />
             <span>CreaCV</span>
           </a>
           <span>CreaCV es un producto de <a class="footer-company" href="https://empleagilidad.com" target="_blank" rel="noopener noreferrer">empleagilidad.com</a></span>
